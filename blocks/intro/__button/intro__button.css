@@ -1,0 +1,22 @@
+.intro__button {
+  width: 295px;
+  height: 75px;
+  font-weight: bold;
+  font-size: 21.44px;
+  line-height: 26px;
+  color: #FFF9F9;
+  border: 0;
+  border-radius: 10px;
+  background-color: #CB4F12;
+  margin: 71px 0 31px;
+}
+
+.intro__button:focus {
+  outline: none;
+}
+
+.intro__button:hover {
+  cursor: pointer;
+  opacity: .9;
+  transition: opacity .2s linear;
+}
