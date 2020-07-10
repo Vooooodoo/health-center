@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   border: 20px solid #FFF9F9;
-  border-bottom: transparent;
+  border-bottom: 10px solid #FFF9F9;
   max-width: 1356px;
   box-sizing: border-box;
   margin: 0 40px;
@@ -17,7 +17,7 @@
   height: 20px;
   background: #FFF9F9;
   position: absolute;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
   z-index: 1;
 }
