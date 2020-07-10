@@ -8,7 +8,7 @@
   border: 0;
   border-radius: 10px;
   background-color: #CB4F12;
-  margin: 71px 0 31px;
+  padding: 0;
 }
 
 .intro__button:focus {

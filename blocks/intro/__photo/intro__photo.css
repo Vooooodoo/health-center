@@ -1,5 +1,4 @@
 .intro__photo {
-  position: absolute;
-  top: 0;
-  right: 106px;
+  margin-top: -80px;
+  margin-bottom: -50px;
 }
