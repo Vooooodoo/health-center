@@ -6,6 +6,7 @@
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/complex/complex.css);
 @import url(../blocks/headline/headline.css);
+@import url(../blocks/complex-info/complex-info.css);
 
 /* header, section, footer, div, h1, h2, h3, img, p, a, ul, li, span, nav {
   border: 1px solid rgb(140, 0, 255);
