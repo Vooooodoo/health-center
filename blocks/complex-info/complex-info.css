@@ -4,5 +4,5 @@
 @import url(./__list-item/complex-info__list-item.css);
 
 .complex-info {
-  max-width: 519px;
+  width: auto;
 }
