@@ -1,4 +1,4 @@
 .complex__container {
-  display: none;
-  grid-template-columns: max-content auto;
+  display: flex;
+  flex-wrap: wrap;
 }
