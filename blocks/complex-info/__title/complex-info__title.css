@@ -20,3 +20,11 @@
     margin-bottom: 5px;
   }
 }
+
+@media all and (max-width: 374px) {
+	.complex-info__title {
+    font-size: 16.44px;
+    line-height: 19px;
+    margin-bottom: 3px;
+  }
+}

@@ -14,3 +14,9 @@
     padding-left: 17px;
   }
 }
+
+@media all and (max-width: 374px) {
+	.complex-info__list {
+    padding-left: 16px;
+  }
+}

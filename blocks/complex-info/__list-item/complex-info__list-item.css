@@ -16,3 +16,10 @@
     line-height: 15px;
   }
 }
+
+@media all and (max-width: 374px) {
+	.complex-info__list-item {
+    font-size: 11.75px;
+    line-height: 14px;
+  }
+}
