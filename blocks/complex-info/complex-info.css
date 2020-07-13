@@ -2,6 +2,9 @@
 @import url(./__title/complex-info__title.css);
 @import url(./__list/complex-info__list.css);
 @import url(./__list-item/complex-info__list-item.css);
+@import url(./_order/complex-info_order_first.css);
+@import url(./_order/complex-info_order_third.css);
+@import url(./_order/complex-info_order_fifth.css);
 
 .complex-info {
   width: 36.04%;
@@ -14,5 +17,12 @@
 @media all and (max-width: 1439px) {
 	.complex-info {
     width: 50%;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.complex-info {
+    width: 100%;
+    flex-basis: 300px;
   }
 }

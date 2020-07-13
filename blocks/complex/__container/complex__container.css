@@ -2,3 +2,10 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media all and (max-width: 767px) {
+	.complex__container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
