@@ -3,4 +3,41 @@
   font-size: 64px;
   line-height: 78px;
   margin: 0;
+  margin-left: -5px;
+}
+
+@media all and (max-width: 1164px) {
+	.intro__title {
+    font-size: 50px;
+    line-height: 61px;
+    margin-left: -4px;
+  }
+}
+
+@media all and (max-width: 968px) {
+	.intro__title {
+    font-size: 39px;
+    line-height: 48px;
+    margin-left: -3px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro__title {
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.intro__title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media all and (max-width: 381px) {
+	.intro__title {
+    font-size: 22px;
+    line-height: 27px;
+  }
 }

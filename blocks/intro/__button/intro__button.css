@@ -9,6 +9,7 @@
   border-radius: 10px;
   background-color: #CB4F12;
   padding: 0;
+  margin-top: 70px;
 }
 
 .intro__button:focus {
@@ -19,4 +20,31 @@
   cursor: pointer;
   opacity: .9;
   transition: opacity .2s linear;
+}
+
+@media all and (max-width: 1164px) {
+	.intro__button {
+    width: 229px;
+    height: 59px;
+    font-size: 18.44px;
+    line-height: 25px;
+    margin-top: 45px;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.intro__button {
+    width: 115px;
+    height: 25px;
+    font-size: 9.44px;
+    line-height: 13px;
+    margin-top: 27px;
+    border-radius: 5px;
+  }
+}
+
+@media all and (max-width: 381px) {
+	.intro__button {
+    margin-top: 16px;
+  }
 }

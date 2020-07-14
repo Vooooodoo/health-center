@@ -4,7 +4,6 @@
   justify-content: space-between;
   border: 20px solid #FFF9F9;
   border-bottom: 10px solid #FFF9F9;
-  max-width: 1356px;
   box-sizing: border-box;
   margin: 0 40px;
   padding: 0 40px;
@@ -20,4 +19,40 @@
   bottom: -10px;
   left: 0;
   z-index: 1;
+}
+
+@media all and (max-width: 1164px) {
+	.intro__container {
+    border: 10px solid #FFF9F9;
+    padding: 0 20px 0 30px;
+  }
+
+  .intro__container:after {
+    height: 10px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.intro__container {
+    padding: 20px;
+    justify-content: center;
+    margin: 40px;
+  }
+
+  .intro__container:after {
+    display: none;
+  }
+}
+
+@media all and (max-width: 480px) {
+	.intro__container {
+    border: 5px solid #FFF9F9;
+    margin: auto 20px;
+  }
+}
+
+@media all and (max-width: 381px) {
+	.intro__container {
+    padding: 5px 10px 10px;
+  }
 }
