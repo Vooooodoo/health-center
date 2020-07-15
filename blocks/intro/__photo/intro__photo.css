@@ -4,11 +4,28 @@
   margin-bottom: -50px;
 }
 
+@media all and (max-width: 1264px) {
+	.intro__photo {
+    margin-right: -80px;
+  }
+}
+
+@media all and (max-width: 1180px) {
+	.intro__photo {
+    margin-right: -100px;
+  }
+}
+
 @media all and (max-width: 1164px) {
 	.intro__photo {
     max-width: 337px;
-    margin-top: -61px;
-    margin-bottom: -43px;
+    margin: -61px 0 -43px;
+  }
+}
+
+@media all and (max-width: 812px) {
+	.intro__photo {
+    margin-right: -60px;
   }
 }
 

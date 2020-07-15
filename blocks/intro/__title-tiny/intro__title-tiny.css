@@ -6,6 +6,12 @@
   margin: 0;
 }
 
+@media all and (max-width: 1369px) {
+	.intro__title-tiny {
+    max-width: 500px;
+  }
+}
+
 @media all and (max-width: 1164px) {
 	.intro__title-tiny {
     max-width: 465px;
