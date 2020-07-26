@@ -5,5 +5,6 @@
 }
 
 .header__phone-number:hover {
-  text-decoration: underline;
+  opacity: .5;
+  transition: opacity .2s linear;
 }
