@@ -2,3 +2,9 @@
   border-left: 1px solid #FFF9F9;
   padding: 15px 30px;
 }
+
+@media all and (max-width: 1023px) {
+	.footer__column_content_info {
+    padding: 15px 20px;
+  }
+}

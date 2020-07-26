@@ -16,3 +16,9 @@
   padding: 20px 40px;
   background-color: #CB4F12;
 }
+
+@media all and (max-width: 1023px) {
+	.footer {
+    padding: 20px 20px;
+  }
+}

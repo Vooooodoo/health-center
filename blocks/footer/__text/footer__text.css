@@ -7,3 +7,10 @@
   line-height: 15px;
   margin: 0;
 }
+
+@media all and (max-width: 1023px) {
+	.footer__text {
+    font-size: 9px;
+    line-height: 11px;
+  }
+}
