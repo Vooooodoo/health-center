@@ -10,3 +10,17 @@
     padding-right: 20px;
   }
 }
+
+@media all and (max-width: 800px) {
+	.footer__column_content_contraindications {
+    padding-right: 15px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.footer__column_content_contraindications {
+    order: 1;
+    margin: 0;
+    align-items: center;
+  }
+}

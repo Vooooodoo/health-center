@@ -14,3 +14,10 @@
     line-height: 11px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.footer__text {
+    max-width: 329px;
+    text-align: center;
+  }
+}

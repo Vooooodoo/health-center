@@ -6,3 +6,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media all and (max-width: 767px) {
+	.footer__column {
+    padding: 20px 0;
+  }
+}

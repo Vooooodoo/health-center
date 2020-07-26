@@ -27,3 +27,17 @@
     line-height: 20px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.footer__title {
+    font-size: 21.62px;
+    line-height: 26px;
+    margin-bottom: 40px;
+  }
+}
+
+@media all and (max-width: 363px) {
+	.footer__title {
+    margin-bottom: 30px;
+  }
+}

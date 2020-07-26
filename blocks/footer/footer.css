@@ -22,3 +22,10 @@
     padding: 20px 20px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.footer {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}

@@ -11,4 +11,11 @@
   }
 }
 
+@media all and (max-width: 767px) {
+	.footer__wrapper_content_logo {
+    max-width: 100%;
+    align-items: center;
+  }
+}
+
 
