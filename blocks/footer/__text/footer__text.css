@@ -1,0 +1,9 @@
+@import url(./_font-weight/footer__text_font-weight_bold.css);
+@import url(./_font-weight/footer__text_font-weight_normal.css);
+
+.footer__text {
+  max-width: 438px;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+}
