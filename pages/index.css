@@ -1,3 +1,4 @@
+/* main */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
@@ -8,6 +9,9 @@
 @import url(../blocks/headline/headline.css);
 @import url(../blocks/complex-info/complex-info.css);
 @import url(../blocks/footer/footer.css);
+/* procedures */
+@import url(../blocks/procedures/procedures.css);
+
 
 /* header, section, footer, div, h1, h2, h3, img, p, a, ul, li, span, nav {
   border: 1px solid rgb(140, 0, 255);
