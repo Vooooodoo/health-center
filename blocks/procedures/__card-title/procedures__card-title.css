@@ -5,3 +5,10 @@
   margin: 0 10px;
   text-align: center;
 }
+
+@media all and (max-width: 424px) {
+  .procedures__card-title {
+    margin: 0 5px;
+  }
+}
+

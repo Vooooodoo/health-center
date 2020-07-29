@@ -1,3 +1,35 @@
+@import url(./_position/procedures__card-photo_position_massage-focus.css);
+@import url(./_position/procedures__card-photo_position_hydrotherapy-focus.css);
+@import url(./_position/procedures__card-photo_position_bailoterapia-focus.css);
+@import url(./_position/procedures__card-photo_position_defectologist-focus.css);
+@import url(./_position/procedures__card-photo_position_bioacoustic-correction-focus.css);
+@import url(./_position/procedures__card-photo_position_mud-applications-focus.css);
+
 .procedures__card-photo {
   width: 100%;
+}
+
+@media all and (max-width: 833px) {
+	.procedures__card-photo {
+    height: calc(280 / 220 * (100vw - 80px) / 3);
+    object-fit: cover;
+  }
+}
+
+@media all and (max-width: 599px) {
+	.procedures__card-photo {
+    height: calc(280 / 220 * (100vw - 60px) / 2);
+  }
+}
+
+@media all and (max-width: 424px) {
+	.procedures__card-photo {
+    height: calc(280 / 220 * (100vw - 50px) / 2);
+  }
+}
+
+@media all and (max-width: 374px) {
+	.procedures__card-photo {
+    height: calc(280 / 220 * (100vw - 40px));
+  }
 }
