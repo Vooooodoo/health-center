@@ -1,5 +1,6 @@
 @import url(./_page/header__link_page_main.css);
 @import url(./_page/header__link_page_procedures.css);
+@import url(./_page/header__link_page_news-and-articles.css);
 
 .header__link {
   font-weight: 500;

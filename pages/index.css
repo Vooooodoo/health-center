@@ -11,6 +11,10 @@
 @import url(../blocks/footer/footer.css);
 /* procedures */
 @import url(../blocks/procedures/procedures.css);
+/* news-and-articles */
+@import url(../blocks/news-and-articles/news-and-articles.css);
+@import url(../blocks/text-cards/text-cards.css);
+
 
 
 /* header, section, footer, div, h1, h2, h3, img, p, a, ul, li, span, nav {
