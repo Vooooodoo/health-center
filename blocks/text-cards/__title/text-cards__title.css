@@ -4,3 +4,19 @@
   line-height: 23px;
   margin: 0 0 20px;
 }
+
+@media all and (max-width: 1024px) {
+	.text-cards__title {
+    font-size: 15.75px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 479px) {
+	.text-cards__title {
+    font-size: 12.75px;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+}

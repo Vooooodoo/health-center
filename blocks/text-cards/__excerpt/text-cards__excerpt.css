@@ -3,3 +3,18 @@
   line-height: 18px;
   margin: 0 0 10px;
 }
+
+@media all and (max-width: 1024px) {
+	.text-cards__excerpt {
+    font-size: 11px;
+    line-height: 13px;
+    margin: 0 0 5px;
+  }
+}
+
+@media all and (max-width: 479px) {
+	.text-cards__excerpt {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

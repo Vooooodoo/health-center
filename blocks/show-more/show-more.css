@@ -19,3 +19,17 @@
 .show-more:focus {
   outline: none;
 }
+
+@media all and (max-width: 1023px) {
+	.show-more {
+    margin: 0 20px 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+	.show-more {
+    font-size: 13.75px;
+    line-height: 17px;
+    height: 32px;
+  }
+}
