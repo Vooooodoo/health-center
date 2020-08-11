@@ -1,0 +1,6 @@
+@import url(./__photo/specialists__photo.css);
+
+.specialists {
+  display: flex;
+  flex-direction: column;
+}

@@ -15,6 +15,9 @@
 @import url(../blocks/news-and-articles/news-and-articles.css);
 @import url(../blocks/text-cards/text-cards.css);
 @import url(../blocks/show-more/show-more.css);
+/* specialists */
+@import url(../blocks/specialists/specialists.css);
+@import url(../blocks/spec-cards/spec-cards.css);
 
 
 
