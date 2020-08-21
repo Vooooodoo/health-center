@@ -18,8 +18,9 @@
 
 .intro__button:hover {
   cursor: pointer;
-  opacity: .9;
-  transition: opacity .2s linear;
+  background-color: #544D4D;
+  transition: background-color .2s linear;
+
 }
 
 @media all and (max-width: 1164px) {
