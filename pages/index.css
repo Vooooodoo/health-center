@@ -9,10 +9,10 @@
 @import url(../blocks/headline/headline.css);
 @import url(../blocks/complex-info/complex-info.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/flex-column-container/flex-column-container.css);
 /* procedures */
 @import url(../blocks/procedures/procedures.css);
 /* news-and-articles */
-@import url(../blocks/news-and-articles/news-and-articles.css);
 @import url(../blocks/text-cards/text-cards.css);
 @import url(../blocks/show-more/show-more.css);
 /* specialists */

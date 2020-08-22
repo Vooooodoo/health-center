@@ -1,4 +1,4 @@
-.news-and-articles {
+.flex-column-container {
   display: flex;
   flex-direction: column;
 }
