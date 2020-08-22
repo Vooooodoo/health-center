@@ -58,8 +58,23 @@
       </header>
 
       <main>
-        <section class="">
+        <section class="registration">
+          <div class="headline">
+            <h2 class="headline__title">Форма записи</h2>
+          </div>
 
+          <p class="registration__text">Через данную форму вы можете записаться на курс лечения в ООО «СП «Центр Здоровья»</p>
+
+          <form class="form" novalidate>
+            <fieldset class="form__fieldset">
+              <input class="form__input-text" type="text" placeholder="Имя" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёa-zA-Z\s\-]+$" required>
+              <input class="form__input-text" type="text" placeholder="E-mail" minlength="2" maxlength="400" required>
+              <input class="form__input-text" type="text" placeholder="Телефон" minlength="2" maxlength="400" required>
+              <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+            </fieldset>
+
+            <button class="form__submit form__submit_valid" type="submit">Отправить</button>
+          </form>
         </section>
       </main>
 
