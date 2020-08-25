@@ -17,3 +17,10 @@
   background-color: #544D4D;
   transition: background-color .2s linear;
 }
+
+@media all and (max-width: 589px) {
+	.form__submit {
+    width: 100px;
+    height: 30px;
+  }
+}

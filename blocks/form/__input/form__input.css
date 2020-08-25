@@ -45,3 +45,12 @@
 .form__input[type="number"]:focus {
   -moz-appearance: number-input;
 }
+
+@media all and (max-width: 589px) {
+	.form__input {
+    min-height: 30px;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 15px;
+  }
+}

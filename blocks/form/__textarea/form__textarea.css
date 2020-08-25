@@ -31,3 +31,12 @@
 .form__textarea::-ms-input-placeholder {
   color: #C4C4C4;
 }
+
+@media all and (max-width: 589px) {
+	.form__textarea {
+    min-height: 70px;
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 15px;
+  }
+}
