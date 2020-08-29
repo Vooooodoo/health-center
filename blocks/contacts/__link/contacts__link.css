@@ -2,6 +2,7 @@
 @import url(./_type/contacts__link_type_details.css);
 
 .contacts__link {
+  white-space: nowrap;
   font-weight: bold;
   color: #544D4D;
 }
