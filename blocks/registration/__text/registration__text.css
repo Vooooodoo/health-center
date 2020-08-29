@@ -1,12 +1,11 @@
 @import url(./_type/registration__text_type_main.css);
 @import url(./_type/registration__text_type_or.css);
-@import url(./_type/registration__text_type_attention.css);
+@import url(./_type/registration__text_type_warning.css);
 
 .registration__text {
   font-weight: 600;
   font-size: 18.75px;
   line-height: 23px;;
-  text-align: center;
 }
 
 @media all and (max-width: 589px) {

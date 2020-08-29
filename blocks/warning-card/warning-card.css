@@ -1,0 +1,10 @@
+@import url(./__logo/warning-card__logo.css);
+@import url(./__list/warning-card__list.css);
+
+.warning-card {
+  display: flex;
+  background-color: #FFF9F9;
+  border-radius: 5px;
+  margin: 0 40px 30px;
+  padding: 20px;
+}
