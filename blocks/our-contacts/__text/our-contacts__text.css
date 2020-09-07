@@ -1,0 +1,13 @@
+.our-contacts__text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 23.44px;
+  line-height: 29px;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__text {
+    font-size: 21.44px;
+    line-height: 26px;
+  }
+}

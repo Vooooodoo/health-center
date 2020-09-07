@@ -1,0 +1,11 @@
+.our-contacts__logo_type_location {
+  width: 25px;
+  height: 25px;
+  margin-right: 6px;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__logo_type_location {
+    margin-top: 2px;
+  }
+}

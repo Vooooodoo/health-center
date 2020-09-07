@@ -24,12 +24,14 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/warning-card/warning-card.css);
+/* contacts */
+@import url(../blocks/our-contacts/our-contacts.css);
 
 
 
-/* header, section, footer, div, h1, h2, h3, img, p, a, ul, li, span, nav {
-  border: 1px solid rgb(140, 0, 255);
-} */
+
+
+
 
 /*
 orange-accent: #CB4F12

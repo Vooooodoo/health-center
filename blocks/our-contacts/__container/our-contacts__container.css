@@ -1,0 +1,14 @@
+.our-contacts__container {
+  display: flex;
+  max-width: 790px;
+  margin: 0 auto 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__container {
+    max-width: 725px;
+    margin-bottom: 30px;
+  }
+}

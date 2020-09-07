@@ -1,0 +1,12 @@
+.our-contacts__logo_type_phone {
+  width: 25px;
+  height: 25px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__logo_type_phone {
+    margin-top: 4px;
+  }
+}

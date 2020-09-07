@@ -1,0 +1,16 @@
+.our-contacts__list {
+  display: flex;
+  list-style: none;
+  padding: 20px 0;
+  border-bottom: 3px solid #544D4D;
+  max-width: 790px;
+  margin: 0 auto 40px;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 829px) {
+	.our-contacts__list {
+    max-width: 725px;
+    margin-bottom: 30px;
+  }
+}
