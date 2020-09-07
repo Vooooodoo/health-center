@@ -11,3 +11,10 @@
     margin-bottom: 3px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__title {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}

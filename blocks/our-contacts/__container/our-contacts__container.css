@@ -12,3 +12,16 @@
     margin-bottom: 30px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__container {
+    max-width: 590px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 630px) {
+	.our-contacts__container {
+    max-width: 325px;
+  }
+}

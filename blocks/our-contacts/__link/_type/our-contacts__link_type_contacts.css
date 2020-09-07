@@ -9,3 +9,10 @@
     max-width: 245px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__link_type_contacts {
+    max-width: 198px;
+    margin-bottom: 15px;
+  }
+}

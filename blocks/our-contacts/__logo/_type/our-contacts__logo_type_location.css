@@ -9,3 +9,19 @@
     margin-top: 2px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__logo_type_location {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-right: 4px;
+  }
+}
+
+@media all and (max-width: 630px) {
+	.our-contacts__logo_type_location {
+    align-self: flex-start;
+    margin-right: 2px;
+  }
+}

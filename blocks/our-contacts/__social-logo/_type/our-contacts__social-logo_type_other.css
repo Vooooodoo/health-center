@@ -1,3 +1,9 @@
 .our-contacts__social-logo_type_other {
   margin-right: 11px;
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__social-logo_type_other {
+    margin-right: 8px;
+  }
+}

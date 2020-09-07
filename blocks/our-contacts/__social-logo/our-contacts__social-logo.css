@@ -12,3 +12,10 @@
     height: 30px;
   }
 }
+
+@media all and (max-width: 767px) {
+	.our-contacts__social-logo {
+    width: 20px;
+    height: 20px;
+  }
+}
