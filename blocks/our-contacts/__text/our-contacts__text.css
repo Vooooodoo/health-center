@@ -19,3 +19,17 @@
     line-height: 21px;
   }
 }
+
+@media all and (max-width: 479px) {
+	.our-contacts__text {
+    font-size: 14.44px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__text {
+    font-size: 12.44px;
+    line-height: 15px;
+  }
+}

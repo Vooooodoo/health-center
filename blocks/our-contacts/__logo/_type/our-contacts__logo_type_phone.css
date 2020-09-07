@@ -19,3 +19,17 @@
     margin-right: 7px;
   }
 }
+
+@media all and (max-width: 479px) {
+	.our-contacts__logo_type_phone {
+    margin-top: 2px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__logo_type_phone {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+  }
+}

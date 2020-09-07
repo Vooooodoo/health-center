@@ -25,3 +25,17 @@
     margin-right: 2px;
   }
 }
+
+@media all and (max-width: 479px) {
+	.our-contacts__logo_type_location {
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__logo_type_location {
+    width: 15px;
+    height: 15px;
+    margin-right: 0;
+  }
+}

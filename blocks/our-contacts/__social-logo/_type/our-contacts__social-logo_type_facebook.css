@@ -7,3 +7,9 @@
     margin-right: 2px;
   }
 }
+
+@media all and (max-width: 374px) {
+	.our-contacts__social-logo_type_facebook {
+    margin-right: 1px;
+  }
+}

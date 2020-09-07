@@ -19,3 +19,17 @@
     margin-right: 7px;
   }
 }
+
+@media all and (max-width: 479px) {
+	.our-contacts__logo_type_mail {
+    margin-top: 2px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.our-contacts__logo_type_mail {
+    width: 15px;
+    height: 10px;
+    margin-right: 6px;
+  }
+}
