@@ -27,12 +27,15 @@
 /* contacts */
 @import url(../blocks/our-contacts/our-contacts.css);
 @import url(../blocks/yandex-map/yandex-map.css);
+/* new-center */
+@import url(../blocks/new-center/new-center.css);
 
 
 
 
 
 
+/*! Переделать блок headline без дива */
 
 /*
 orange-accent: #CB4F12
