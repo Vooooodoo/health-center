@@ -29,13 +29,14 @@
 @import url(../blocks/yandex-map/yandex-map.css);
 /* new-center */
 @import url(../blocks/new-center/new-center.css);
+@import url(../blocks/photo-cards/photo-cards.css);
 
 
 
 
 
 
-/*! Переделать блок headline без дива */
+/*! Переделать блок headline и подпись к карточке процедур без дивов */
 
 /*
 orange-accent: #CB4F12
