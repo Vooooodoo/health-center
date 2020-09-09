@@ -1,5 +1,4 @@
 @import url(./__photo/photo-cards__photo.css);
-@import url(./__item/photo-cards__item.css);
 
 .photo-cards {
   display: grid;
@@ -8,6 +7,7 @@
   margin: 0 40px 20px;
   padding: 0;
   list-style: none;
+  line-height: 0;
 }
 
 @media all and (max-width: 1024px) {
