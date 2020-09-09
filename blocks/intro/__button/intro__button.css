@@ -1,26 +1,23 @@
 .intro__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 295px;
   height: 75px;
   font-weight: bold;
   font-size: 21.44px;
   line-height: 26px;
   color: #FFF9F9;
-  border: 0;
+  text-decoration: none;
   border-radius: 10px;
   background-color: #CB4F12;
   padding: 0;
   margin-top: 70px;
 }
 
-.intro__button:focus {
-  outline: none;
-}
-
 .intro__button:hover {
-  cursor: pointer;
   background-color: #544D4D;
   transition: background-color .2s linear;
-
 }
 
 @media all and (max-width: 1164px) {
