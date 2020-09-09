@@ -3,7 +3,7 @@
   padding: 0;
   line-height: 0;
   max-width: 940px;
-  margin: 40px 40px;
+  margin: 20px 40px;
   align-self: center;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

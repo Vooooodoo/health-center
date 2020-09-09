@@ -6,13 +6,13 @@
 @media all and (max-width: 1024px) {
 	.new-center__paragraph_font-weight_normal {
     padding: 10px 15px;
-    margin: 15px 40px;
+    margin-bottom: 15px;
   }
 }
 
 @media all and (max-width: 1023px) {
 	.new-center__paragraph_font-weight_normal {
-    margin: 15px 20px;
+    margin: 20px 20px 15px;
   }
 }
 
