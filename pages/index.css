@@ -30,22 +30,3 @@
 /* new-center */
 @import url(../blocks/new-center/new-center.css);
 @import url(../blocks/photo-cards/photo-cards.css);
-
-
-
-
-
-
-/*! Переделать подпись к карточке процедур без дивов */
-
-/*
-orange-accent: #CB4F12
-grey-background: #EDEDEB
-white: #FFF9F9
-black: #544D4D
-*/
-
-/* .header__phone-number:hover {
-  opacity: .5;
-  transition: opacity .2s linear;
-} */
