@@ -16,10 +16,6 @@
   transition: opacity .2s linear;
 }
 
-.show-more:focus {
-  outline: none;
-}
-
 @media all and (max-width: 1023px) {
 	.show-more {
     margin: 0 20px 20px;
