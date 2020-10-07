@@ -12,6 +12,10 @@
   margin: 0 66.25px 0 auto;
 }
 
+.header__button:focus {
+  outline: none;
+}
+
 @media all and (max-width: 767px) {
 	.header__button {
     display: block;
