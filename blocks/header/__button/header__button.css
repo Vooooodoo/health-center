@@ -12,10 +12,6 @@
   margin: 0 66.25px 0 auto;
 }
 
-.header__button:focus {
-  outline: none;
-}
-
 @media all and (max-width: 767px) {
 	.header__button {
     display: block;
@@ -25,7 +21,7 @@
 @media all and (max-width: 480px) {
 	.header__button {
     width: 12px;
-    height: 49px;
+    height: 48px;
     margin-right: 38px;
   }
 }
