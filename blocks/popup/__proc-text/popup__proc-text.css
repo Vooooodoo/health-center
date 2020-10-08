@@ -1,0 +1,20 @@
+.popup__proc-text {
+  font-weight: 600;
+  font-size: 18.75px;
+  line-height: 23px;
+  margin: 0 0 10px;
+}
+
+@media all and (max-width: 589px) {
+	.popup__proc-text {
+    font-size: 14.75px;
+    line-height: 18px;
+  }
+}
+
+@media all and (max-width: 375px) {
+	.popup__proc-text {
+    font-size: 12.75px;
+    line-height: 16px;
+  }
+}

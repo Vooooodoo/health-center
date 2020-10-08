@@ -13,6 +13,7 @@
 @import url(../blocks/flex-column-container/flex-column-container.css);
 /* procedures */
 @import url(../blocks/procedures/procedures.css);
+@import url(../blocks/popup/popup.css);
 /* news-and-articles */
 @import url(../blocks/text-cards/text-cards.css);
 @import url(../blocks/show-more/show-more.css);
