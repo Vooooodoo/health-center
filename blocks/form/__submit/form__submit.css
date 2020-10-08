@@ -10,6 +10,7 @@
   line-height: 15px;
   padding: 0;
   margin-left: auto;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .form__submit:hover {

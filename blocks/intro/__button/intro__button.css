@@ -13,6 +13,7 @@
   background-color: #CB4F12;
   padding: 0;
   margin-top: 70px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .intro__button:hover {
