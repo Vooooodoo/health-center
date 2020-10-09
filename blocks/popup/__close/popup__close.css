@@ -1,7 +1,7 @@
 .popup__close {
   position: absolute;
-  top: -29px;
-  right: -29px;
+  top: 0;
+  right: -39px;
   width: 28.3px;
   height: 28.3px;
   padding: 0;
@@ -11,6 +11,11 @@
   background-position: center;
   background-size: 50px;
   border: none;
+  outline: none;
+}
+
+.popup__close:focus {
+  opacity: .5;
 }
 
 .popup__close:hover {
@@ -19,10 +24,11 @@
   transition: opacity .2s linear;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 375px) {
 	.popup__close {
     width: 21.3px;
     height: 21.3px;
     background-size: 37px;
+    right: -30px;
   }
 }

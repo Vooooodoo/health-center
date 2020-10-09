@@ -2,24 +2,6 @@
   position: relative;
   background-color: #FFF9F9;
   border-radius: 5px;
-  margin: 0 40px 30px;
+  margin: 0 50px;
   padding: 20px;
-}
-
-@media all and (max-width: 1023px) {
-	.popup__proc-container {
-    margin: 0 20px 30px;
-  }
-}
-
-@media all and (max-width: 589px) {
-	.popup__proc-container {
-    margin-bottom: 20px;
-  }
-}
-
-@media all and (max-width: 320px) {
-	.popup__proc-container {
-    padding: 10px;
-  }
 }

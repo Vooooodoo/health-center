@@ -1,2 +1,6 @@
 @import url(./_position/procedures__card_position_left.css);
 @import url(./_position/procedures__card_position_right.css);
+
+.procedures__card {
+  cursor: pointer;
+}
