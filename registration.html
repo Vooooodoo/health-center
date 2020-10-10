@@ -97,10 +97,10 @@
 
           <form class="form">
             <fieldset class="form__fieldset">
-              <input class="form__input" type="text" placeholder="Имя*" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
-              <input class="form__input" type="email" placeholder="E-mail*" minlength="2" maxlength="40" required>
-              <input class="form__input" type="number" placeholder="Телефон*" required>
-              <textarea class="form__textarea" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
+              <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
+              <input class="form__input" name="email" type="email" placeholder="E-mail*" minlength="2" maxlength="40" required>
+              <input class="form__input" name="phone" type="number" placeholder="Телефон*" required>
+              <textarea class="form__textarea" name="data" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
             </fieldset>
 
             <button class="form__submit" type="submit">Отправить</button>
