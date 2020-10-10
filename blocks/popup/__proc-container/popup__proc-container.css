@@ -1,5 +1,6 @@
 .popup__proc-container {
   position: relative;
+  max-width: 940px;
   background-color: #FFF9F9;
   border-radius: 5px;
   margin: 0 50px;
