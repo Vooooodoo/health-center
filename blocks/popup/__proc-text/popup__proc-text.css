@@ -1,7 +1,9 @@
+@import url(./_position/popup__proc-text_position_top.css);
+@import url(./_position/popup__proc-text_position_bottom.css);
+
 .popup__proc-text {
   font-size: 18.75px;
   line-height: 23px;
-  margin: 0 0 10px;
 }
 
 @media all and (max-width: 589px) {
