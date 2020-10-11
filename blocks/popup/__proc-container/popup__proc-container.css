@@ -1,10 +1,9 @@
 .popup__proc-container {
   position: relative;
   max-width: 940px;
-  max-height: 500px;
+  max-height: 400px;
   background-color: #FFF9F9;
   border-radius: 5px;
   margin: 0 50px;
   padding: 20px;
-  overflow-y: scroll;
 }
