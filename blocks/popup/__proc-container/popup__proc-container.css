@@ -6,4 +6,6 @@
   border-radius: 5px;
   margin: 0 50px;
   padding: 20px;
+  overflow-x: visible;
+  overflow-y: scroll;
 }
