@@ -13,9 +13,9 @@ function openPopup(evt) {
 
   const isProcPhoto = evt.target.classList.contains('procedures__card-photo');
   const isProcTitle = evt.target.classList.contains('procedures__card-title');
-  const isTextCardsLink = evt.target.classList.contains('text-cards__link');
+  const isTextCardLink = evt.target.classList.contains('text-cards__link');
 
-  if ( isProcPhoto || isProcTitle || isTextCardsLink) {
+  if ( isProcPhoto || isProcTitle || isTextCardLink) {
     clickedCardPopup.classList.add('popup_opened');
   }
 }
