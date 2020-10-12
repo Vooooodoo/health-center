@@ -31,6 +31,12 @@ function closePopup(evt) {
 
     clickedCardPopup.classList.remove('popup_opened');
   }
+
+  if (evt.target.classList.contains('popup__hack-wrap')) {
+    const clickedCardPopup = evt.target.parentElement;
+
+    clickedCardPopup.classList.remove('popup_opened');
+  }
 }
 
 // LISTENERS
