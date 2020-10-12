@@ -1,7 +1,9 @@
+@import url(./_type/popup__close_type_normal.css);
+@import url(./_type/popup__close_type_overflowed.css);
+
 .popup__close {
   position: absolute;
   top: 0;
-  right: -39px;
   width: 28.3px;
   height: 28.3px;
   padding: 0;
