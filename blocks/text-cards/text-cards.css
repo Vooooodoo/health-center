@@ -4,7 +4,7 @@
 @import url(./__item/text-cards__item.css);
 @import url(./__title/text-cards__title.css);
 @import url(./__excerpt/text-cards__excerpt.css);
-@import url(./__link/text-cards__link.css);
+@import url(./__button/text-cards__button.css);
 
 .text-cards {
   list-style: none;
