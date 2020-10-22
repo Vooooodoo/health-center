@@ -2,6 +2,7 @@
   color: #CB4F12;
   font-weight: bold;
   text-decoration: none;
+  transition: .2s linear;
 }
 
 .header__phone-number:hover {
