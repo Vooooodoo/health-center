@@ -7,7 +7,14 @@
 
 .procedures__card-photo {
   width: 100%;
+  transition: .2s linear;
 }
+
+.procedures__card-photo:hover {
+  transform: scale(1.04);
+  transition: transform .2s linear;
+}
+
 
 @media all and (max-width: 833px) {
 	.procedures__card-photo {
