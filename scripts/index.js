@@ -1,6 +1,8 @@
 // DOM-ELEMENTS
 const mobileMenu = document.querySelector('.mobile-menu');
 const mobileMenuButton = document.querySelector('.header__button');
+const photoPopup = document.querySelector('#photo-popup');
+const photoPopupImg = photoPopup.querySelector('.popup__photo');
 
 // FUNCTIONS
 function switchMobileMenu() {
@@ -18,6 +20,11 @@ function openPopup(evt) {
   if (isProcPhoto || isProcTitle || isTextCardLink) {
     clickedCardPopup.classList.add('popup_opened');
   }
+
+  if (evt.target.classList.contains('documents__photo')) {
+    photoPopup.classList.add('popup_opened');
+    photoPopupImg.src = evt.target.src;
+  }
 }
 
 function closePopup(evt) {
@@ -30,6 +37,7 @@ function closePopup(evt) {
     const clickedCardPopup = popupContainer.parentElement;
 
     clickedCardPopup.classList.remove('popup_opened');
+    photoPopup.classList.remove('popup_opened');
   }
 
   if (evt.target.classList.contains('popup__hack-wrap')) {
