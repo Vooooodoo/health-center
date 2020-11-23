@@ -1,5 +1,3 @@
 .popup__photo {
-  position: relative;
   max-height: 80vh;
-  margin: 25px 0 10px;
 }
