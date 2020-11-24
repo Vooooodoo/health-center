@@ -1,4 +1,5 @@
 @import url(./__photo/photo-cards__photo.css);
+@import url(./__video/photo-cards__video.css);
 
 .photo-cards {
   display: grid;
