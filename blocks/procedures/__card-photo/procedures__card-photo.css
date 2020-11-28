@@ -12,7 +12,6 @@
 
 .procedures__card-photo:hover {
   transform: scale(1.04);
-  transition: transform .2s linear;
 }
 
 
