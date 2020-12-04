@@ -13,7 +13,6 @@ function openPhotoPopup(evt) {
   if (evt.target.classList.contains('documents__photo')) {
     photoPopup.classList.add('popup_opened');
     photoPopupImg.src = evt.target.src;
-    photoPopupImg.alt = evt.target.alt;
   }
 }
 
