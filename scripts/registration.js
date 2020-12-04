@@ -15,33 +15,45 @@ function openSchedule2020Popup() {
   schedule2020Popup.classList.add('popup_opened');
 }
 
-function closeSchedulePopup(evt) {
+function closeSchedule2020Popup() {
+  schedule2020Popup.classList.remove('popup_opened');
+}
+
+function openSchedule2021Popup() {
+  schedule2021Popup.classList.add('popup_opened');
+}
+
+function closeSchedule2021Popup() {
+  schedule2021Popup.classList.remove('popup_opened');
+}
+
+function closeAllPopups(evt) {
   const isPopup = evt.target.classList.contains('popup');
   const isPopupClose = evt.target.classList.contains('popup__close');
 
   if (isPopup || isPopupClose) {
-    schedule2020Popup.classList.remove('popup_opened');
-    schedule2021Popup.classList.remove('popup_opened');
+    closeSchedule2020Popup();
+    closeSchedule2021Popup();
   }
 }
 
-function closeSchedule2020Popup(evt) {
+function switchSchedule2020Slide(evt) {
   const isPopupSliderBtn = evt.target.classList.contains('popup__slider-btn_right');
   const isPopupRadioBtn = evt.target.id === 'right-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    schedule2020Popup.classList.remove('popup_opened');
-    schedule2021Popup.classList.add('popup_opened');
+    closeSchedule2020Popup();
+    openSchedule2021Popup();
   }
 }
 
-function closeSchedule2021Popup(evt) {
+function switchSchedule2021Slide(evt) {
   const isPopupSliderBtn = evt.target.classList.contains('popup__slider-btn_left');
   const isPopupRadioBtn = evt.target.id === 'left-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    schedule2021Popup.classList.remove('popup_opened');
-    schedule2020Popup.classList.add('popup_opened');
+    closeSchedule2021Popup();
+    openSchedule2020Popup();
   }
 }
 
@@ -49,6 +61,6 @@ function closeSchedule2021Popup(evt) {
 mobileMenuButton.addEventListener('click', switchMobileMenu);
 
 scheduleBtn.addEventListener('click', openSchedule2020Popup);
-document.addEventListener('click', closeSchedule2020Popup);
-document.addEventListener('click', closeSchedule2021Popup);
-document.addEventListener('click', closeSchedulePopup);
+document.addEventListener('click', switchSchedule2020Slide);
+document.addEventListener('click', switchSchedule2021Slide);
+document.addEventListener('click', closeAllPopups);
