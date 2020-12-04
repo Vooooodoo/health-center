@@ -27,8 +27,9 @@ function closeSchedulePopup(evt) {
 
 function closeSchedule2020Popup(evt) {
   const isPopupSliderBtn = evt.target.classList.contains('popup__slider-btn_right');
+  const isPopupRadioBtn = evt.target.id === 'right-radio-btn';
 
-  if (isPopupSliderBtn) {
+  if (isPopupSliderBtn || isPopupRadioBtn) {
     schedule2020Popup.classList.remove('popup_opened');
     schedule2021Popup.classList.add('popup_opened');
   }
@@ -36,8 +37,9 @@ function closeSchedule2020Popup(evt) {
 
 function closeSchedule2021Popup(evt) {
   const isPopupSliderBtn = evt.target.classList.contains('popup__slider-btn_left');
+  const isPopupRadioBtn = evt.target.id === 'left-radio-btn';
 
-  if (isPopupSliderBtn) {
+  if (isPopupSliderBtn || isPopupRadioBtn) {
     schedule2021Popup.classList.remove('popup_opened');
     schedule2020Popup.classList.add('popup_opened');
   }
