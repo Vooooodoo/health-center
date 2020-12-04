@@ -12,3 +12,19 @@
     line-height: 26px;
   }
 }
+
+@media all and (max-width: 599px) {
+	.popup__schedule-title {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.popup__schedule-title {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+}

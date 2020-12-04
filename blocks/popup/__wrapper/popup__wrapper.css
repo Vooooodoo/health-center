@@ -10,3 +10,9 @@
     width: 80px;
   }
 }
+
+@media all and (max-width: 425px) {
+	.popup__wrapper {
+    width: 60px;
+  }
+}

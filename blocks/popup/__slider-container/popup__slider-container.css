@@ -2,7 +2,7 @@
   position: relative;
   background-color: #FFF9F9;
   margin: 0 50px;
-  padding: 30px 30px;
+  padding: 30px;
   max-height: 80vh;
   max-width: 565px;
 }
@@ -10,5 +10,24 @@
 @media all and (max-width: 767px) {
 	.popup__slider-container {
     max-width: 450px;
+  }
+}
+
+@media all and (max-width: 599px) {
+	.popup__slider-container {
+    max-width: 330px;
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 425px) {
+	.popup__slider-container {
+    max-width: 250px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.popup__slider-container {
+    margin: 0 40px;
   }
 }

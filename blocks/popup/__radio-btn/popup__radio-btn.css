@@ -24,3 +24,10 @@
     height: 30px;
   }
 }
+
+@media all and (max-width: 425px) {
+	.popup__radio-btn {
+    width: 20px;
+    height: 20px;
+  }
+}

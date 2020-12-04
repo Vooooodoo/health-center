@@ -1,6 +1,23 @@
 .popup__slider-photo {
   display: block;
   width: 55%;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px;
+}
+
+@media all and (max-width: 599px) {
+	.popup__slider-photo {
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 425px) {
+	.popup__slider-photo {
+    width: 65%;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.popup__slider-photo {
+    width: 75%;
+  }
 }

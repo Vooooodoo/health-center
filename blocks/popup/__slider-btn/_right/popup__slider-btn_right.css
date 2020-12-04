@@ -1,0 +1,16 @@
+.popup__slider-btn_right {
+  background-image: url(../../../../images/popup__slider-btn_right.svg);
+  right: 30px;
+}
+
+@media all and (max-width: 599px) {
+	.popup__slider-btn_right {
+    right: 20px;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.popup__slider-btn_right {
+    right: 12px;
+  }
+}
