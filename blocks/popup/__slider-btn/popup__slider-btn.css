@@ -1,0 +1,17 @@
+.popup__slider-btn {
+  width: 40px;
+  height: 84px;
+  background-image: url(../../../images/popup__slider-btn_right.svg);
+  position: absolute;
+  right: 30px;
+  top: 43%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: .2s linear;
+}
+
+.popup__slider-btn:hover {
+  opacity: .5;
+}

@@ -7,6 +7,12 @@
 @import url(./__list/popup__list.css);
 @import url(./__photo-container/popup__photo-container.css);
 @import url(./__photo/popup__photo.css);
+@import url(./__slider-container/popup__slider-container.css);
+@import url(./__schedule-title/popup__schedule-title.css);
+@import url(./__slider-photo/popup__slider-photo.css);
+@import url(./__slider-btn/popup__slider-btn.css);
+@import url(./__wrapper/popup__wrapper.css);
+@import url(./__radio-btn/popup__radio-btn.css);
 
 .popup {
   position: fixed;
@@ -17,7 +23,7 @@
   height: 100%;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, .5);
   z-index: 1;
   line-height: 0;
   cursor: default;
