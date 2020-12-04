@@ -5,3 +5,10 @@
   margin: 0 0 30px;
   text-align: center;
 }
+
+@media all and (max-width: 767px) {
+	.popup__schedule-title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}

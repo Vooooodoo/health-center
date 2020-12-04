@@ -2,6 +2,9 @@
   width: 40px;
   height: 84px;
   background-image: url(../../../images/popup__slider-btn_right.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   position: absolute;
   right: 30px;
   top: 43%;
@@ -14,4 +17,11 @@
 
 .popup__slider-btn:hover {
   opacity: .5;
+}
+
+@media all and (max-width: 767px) {
+	.popup__slider-btn {
+    width: 30px;
+    height: 74px;
+  }
 }

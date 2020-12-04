@@ -6,3 +6,9 @@
   max-height: 80vh;
   max-width: 565px;
 }
+
+@media all and (max-width: 767px) {
+	.popup__slider-container {
+    max-width: 450px;
+  }
+}

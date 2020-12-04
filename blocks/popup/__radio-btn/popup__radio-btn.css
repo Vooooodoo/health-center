@@ -17,3 +17,10 @@
 .popup__radio-btn:hover {
   opacity: .5;
 }
+
+@media all and (max-width: 767px) {
+	.popup__radio-btn {
+    width: 30px;
+    height: 30px;
+  }
+}
