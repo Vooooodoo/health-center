@@ -87,7 +87,7 @@ function switchPriceOneSlide(evt) {
   }
 }
 
-function switchSchedule2021Slide(evt) {
+function switchPriceTwoSlide(evt) {
   const isPopupSliderBtn = evt.target.id === 'price-left-slider-btn';
   const isPopupRadioBtn = evt.target.id === 'price-left-radio-btn';
 
@@ -104,4 +104,6 @@ scheduleBtn.addEventListener('click', openSchedule2020Popup);
 priceBtn.addEventListener('click', openPriceOnePopup);
 document.addEventListener('click', switchSchedule2020Slide);
 document.addEventListener('click', switchSchedule2021Slide);
+document.addEventListener('click', switchPriceOneSlide);
+document.addEventListener('click', switchPriceTwoSlide);
 document.addEventListener('click', closeAllPopups);
