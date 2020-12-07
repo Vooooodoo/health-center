@@ -77,6 +77,26 @@ function switchSchedule2021Slide(evt) {
   }
 }
 
+function switchPriceOneSlide(evt) {
+  const isPopupSliderBtn = evt.target.id === 'price-right-slider-btn';
+  const isPopupRadioBtn = evt.target.id === 'price-right-radio-btn';
+
+  if (isPopupSliderBtn || isPopupRadioBtn) {
+    closePriceOnePopup();
+    openPriceTwoPopup();
+  }
+}
+
+function switchSchedule2021Slide(evt) {
+  const isPopupSliderBtn = evt.target.id === 'price-left-slider-btn';
+  const isPopupRadioBtn = evt.target.id === 'price-left-radio-btn';
+
+  if (isPopupSliderBtn || isPopupRadioBtn) {
+    closePriceTwoPopup();
+    openPriceOnePopup();
+  }
+}
+
 // LISTENERS
 mobileMenuButton.addEventListener('click', switchMobileMenu);
 
