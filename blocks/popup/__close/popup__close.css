@@ -1,5 +1,6 @@
 @import url(./_type/popup__close_type_normal.css);
 @import url(./_type/popup__close_type_overflowed.css);
+@import url(./_type/popup__close_type_slider-overflowed.css);
 
 .popup__close {
   position: absolute;
