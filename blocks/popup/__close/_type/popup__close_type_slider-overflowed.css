@@ -3,7 +3,13 @@
 }
 
 @media all and (max-width: 375px) {
-  .popup__close_type_sloder-overflowed {
+  .popup__close_type_slider-overflowed {
+    right: 20px;
+  }
+}
+
+@media all and (max-width: 374px) {
+  .popup__close_type_slider-overflowed {
     right: 10px;
   }
 }

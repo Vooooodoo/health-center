@@ -1,0 +1,15 @@
+.popup__slider-photo_type_price {
+  width: 90%;
+}
+
+@media all and (max-width: 425px) {
+	.popup__slider-photo_type_price {
+    width: 65%;
+  }
+}
+
+@media all and (max-width: 374px) {
+	.popup__slider-photo_type_price {
+    width: 75%;
+  }
+}
