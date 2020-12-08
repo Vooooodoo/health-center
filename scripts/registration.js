@@ -13,36 +13,12 @@ function switchMobileMenu() {
   mobileMenu.classList.toggle('mobile-menu_opened');
 }
 
-function openSchedule2020Popup() {
-  schedule2020Popup.classList.add('popup_opened');
+function openPopup(popup) {
+  popup.classList.add('popup_opened');
 }
 
-function closeSchedule2020Popup() {
-  schedule2020Popup.classList.remove('popup_opened');
-}
-
-function openSchedule2021Popup() {
-  schedule2021Popup.classList.add('popup_opened');
-}
-
-function closeSchedule2021Popup() {
-  schedule2021Popup.classList.remove('popup_opened');
-}
-
-function openPriceOnePopup() {
-  priceOnePopup.classList.add('popup_opened');
-}
-
-function closePriceOnePopup() {
-  priceOnePopup.classList.remove('popup_opened');
-}
-
-function openPriceTwoPopup() {
-  priceTwoPopup.classList.add('popup_opened');
-}
-
-function closePriceTwoPopup() {
-  priceTwoPopup.classList.remove('popup_opened');
+function closePopup(popup) {
+  popup.classList.remove('popup_opened');
 }
 
 function closeAllPopups(evt) {
@@ -50,10 +26,10 @@ function closeAllPopups(evt) {
   const isPopupClose = evt.target.classList.contains('popup__close');
 
   if (isPopup || isPopupClose) {
-    closeSchedule2020Popup();
-    closeSchedule2021Popup();
-    closePriceOnePopup();
-    closePriceTwoPopup();
+    closePopup(schedule2020Popup);
+    closePopup(schedule2021Popup);
+    closePopup(priceOnePopup);
+    closePopup(priceTwoPopup);
   }
 }
 
@@ -62,8 +38,8 @@ function switchSchedule2020Slide(evt) {
   const isPopupRadioBtn = evt.target.id === 'schedule-right-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    closeSchedule2020Popup();
-    openSchedule2021Popup();
+    closePopup(schedule2020Popup);
+    openPopup(schedule2021Popup);
   }
 }
 
@@ -72,8 +48,8 @@ function switchSchedule2021Slide(evt) {
   const isPopupRadioBtn = evt.target.id === 'schedule-left-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    closeSchedule2021Popup();
-    openSchedule2020Popup();
+    closePopup(schedule2021Popup);
+    openPopup(schedule2020Popup);
   }
 }
 
@@ -82,8 +58,8 @@ function switchPriceOneSlide(evt) {
   const isPopupRadioBtn = evt.target.id === 'price-right-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    closePriceOnePopup();
-    openPriceTwoPopup();
+    closePopup(priceOnePopup);
+    openPopup(priceTwoPopup);
   }
 }
 
@@ -92,16 +68,21 @@ function switchPriceTwoSlide(evt) {
   const isPopupRadioBtn = evt.target.id === 'price-left-radio-btn';
 
   if (isPopupSliderBtn || isPopupRadioBtn) {
-    closePriceTwoPopup();
-    openPriceOnePopup();
+    closePopup(priceTwoPopup);
+    openPopup(priceOnePopup);
   }
 }
 
 // LISTENERS
 mobileMenuButton.addEventListener('click', switchMobileMenu);
 
-scheduleBtn.addEventListener('click', openSchedule2020Popup);
-priceBtn.addEventListener('click', openPriceOnePopup);
+scheduleBtn.addEventListener('click', () => {
+  openPopup(schedule2020Popup);
+});
+priceBtn.addEventListener('click', () => {
+  openPopup(priceOnePopup);
+});
+
 document.addEventListener('click', switchSchedule2020Slide);
 document.addEventListener('click', switchSchedule2021Slide);
 document.addEventListener('click', switchPriceOneSlide);
