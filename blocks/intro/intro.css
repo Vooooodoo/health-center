@@ -34,12 +34,12 @@
 
 @media all and (max-width: 480px) {
 	.intro {
-    height: 212px;
+    height: 280px;
   }
 }
 
 @media all and (max-width: 381px) {
 	.intro {
-    height: 164px;
+    height: 240px;
   }
 }

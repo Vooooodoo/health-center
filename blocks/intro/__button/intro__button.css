@@ -33,10 +33,10 @@
 
 @media all and (max-width: 480px) {
 	.intro__button {
-    width: 115px;
-    height: 25px;
-    font-size: 9.44px;
-    line-height: 13px;
+    width: 217px;
+    height: 49px;
+    font-size: 16px;
+    line-height: 21px;
     margin-top: 27px;
     border-radius: 5px;
   }
@@ -44,6 +44,10 @@
 
 @media all and (max-width: 381px) {
 	.intro__button {
-    margin-top: 16px;
+    width: 191px;
+    height: 41px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
   }
 }
