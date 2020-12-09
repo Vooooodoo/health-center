@@ -14,9 +14,8 @@
 /* procedures */
 @import url(../blocks/procedures/procedures.css);
 @import url(../blocks/popup/popup.css);
-/* news-and-articles */
-@import url(../blocks/text-cards/text-cards.css);
-@import url(../blocks/show-more/show-more.css);
+/* achievements */
+@import url(../blocks/achievements/achievements.css);
 /* specialists */
 @import url(../blocks/specialists/specialists.css);
 @import url(../blocks/spec-cards/spec-cards.css);
