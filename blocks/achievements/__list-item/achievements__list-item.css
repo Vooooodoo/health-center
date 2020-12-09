@@ -1,0 +1,6 @@
+.achievements__list-item {
+  max-width: 320px;
+  min-height: 320px;
+  border-radius: 50%;
+  background-color:white;
+}
