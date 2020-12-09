@@ -1,3 +1,9 @@
 .achievements__list-item_position_right {
-  grid-column: 9/12;
+  grid-column: 5/7;
+}
+
+@media all and (max-width: 1023px) {
+	.achievements__list-item_position_right {
+    grid-column: 3/5;
+  }
 }
