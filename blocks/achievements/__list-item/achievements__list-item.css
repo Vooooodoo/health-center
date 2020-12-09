@@ -1,6 +1,15 @@
+@import url(./_position/achievements__list-item_position_left.css);
+@import url(./_position/achievements__list-item_position_center.css);
+@import url(./_position/achievements__list-item_position_right.css);
+@import url(./_position/achievements__list-item_position_left-center.css);
+@import url(./_position/achievements__list-item_position_right-center.css);
+
 .achievements__list-item {
-  max-width: 320px;
-  min-height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   background-color:white;
 }

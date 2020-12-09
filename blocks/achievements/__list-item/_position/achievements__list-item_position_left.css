@@ -1,0 +1,4 @@
+.achievements__list-item_position_left {
+  grid-column: 1/4;
+  justify-self: center;
+}
