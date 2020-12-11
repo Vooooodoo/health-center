@@ -12,6 +12,7 @@
   background-size: contain;
   cursor: pointer;
   transition: .2s linear;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .popup__radio-btn:hover {

@@ -14,6 +14,7 @@
   cursor: pointer;
   padding: 0;
   transition: .2s linear;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .popup__slider-btn:hover {
