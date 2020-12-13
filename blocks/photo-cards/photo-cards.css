@@ -1,11 +1,12 @@
 @import url(./__photo/photo-cards__photo.css);
 @import url(./__video/photo-cards__video.css);
+@import url(./_location/photo-cards_location_video.css);
+@import url(./_location/photo-cards_location_new-center.css);
 
 .photo-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 0 40px;
   padding: 0;
   list-style: none;
   line-height: 0;
@@ -14,12 +15,6 @@
 @media all and (max-width: 1024px) {
 	.photo-cards {
     gap: 15px;
-  }
-}
-
-@media all and (max-width: 1023px) {
-	.photo-cards {
-    margin: 0 20px;
   }
 }
 
