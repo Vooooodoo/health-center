@@ -14,7 +14,7 @@
 
 @media all and (max-width: 580px) {
 	.achievements__large-text {
-    font-size: 40.75px;
-    line-height: 55px;
+    font-size: 35.75px;
+    line-height: 50px;
   }
 }

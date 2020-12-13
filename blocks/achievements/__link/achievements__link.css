@@ -14,3 +14,9 @@
     max-width: 204px;
   }
 }
+
+@media all and (max-width: 580px) {
+	.achievements__link {
+    max-width: 167px;
+  }
+}
