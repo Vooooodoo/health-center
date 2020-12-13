@@ -1,7 +1,9 @@
+@import url(./_position/achievements__midlle-text_position_second-string.css);
+
 .achievements__midlle-text {
   display: block;
   font-weight: normal;
   font-size: 37.75px;
   line-height: 46px;
-  margin-top: -20px;
+  margin-bottom: 5px;
 }
