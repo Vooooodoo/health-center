@@ -8,3 +8,9 @@
 .achievements__link:hover {
   opacity: .5;
 }
+
+@media all and (max-width: 1279px) {
+	.achievements__link {
+    max-width: 204px;
+  }
+}

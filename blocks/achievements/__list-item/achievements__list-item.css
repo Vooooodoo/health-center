@@ -14,3 +14,10 @@
   height: 270px;
   box-sizing: border-box;
 }
+
+@media all and (max-width: 1279px) {
+	.achievements__list-item {
+    width: 220px;
+    height: 220px;
+  }
+}

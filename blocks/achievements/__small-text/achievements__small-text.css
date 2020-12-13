@@ -4,3 +4,10 @@
   font-size: 18px;
   line-height: 22px;
 }
+
+@media all and (max-width: 1279px) {
+	.achievements__small-text {
+    font-size: 15px;
+    line-height: 19px;
+  }
+}

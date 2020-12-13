@@ -6,3 +6,10 @@
   font-size: 32.75px;
   line-height: 41px;
 }
+
+@media all and (max-width: 1279px) {
+	.achievements__midlle-text {
+    font-size: 27.75px;
+    line-height: 36px;
+  }
+}
