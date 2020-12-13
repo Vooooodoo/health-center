@@ -21,3 +21,10 @@
     height: 220px;
   }
 }
+
+@media all and (max-width: 580px) {
+	.achievements__list-item {
+    width: 200px;
+    height: 200px;
+  }
+}
