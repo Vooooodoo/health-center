@@ -3,15 +3,13 @@
 @import url(./_position/achievements__list-item_position_right.css);
 @import url(./_position/achievements__list-item_position_left-center.css);
 @import url(./_position/achievements__list-item_position_right-center.css);
+@import url(./_type/achievements__list-item_type_bubble.css);
 
 .achievements__list-item {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, .4);
-  padding: 40px;
+  width: 270px;
+  height: 270px;
   box-sizing: border-box;
 }

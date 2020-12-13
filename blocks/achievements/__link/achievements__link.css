@@ -1,8 +1,8 @@
 .achievements__link {
   color: #544D4D;
   text-decoration: none;
-  text-align: center;
   transition: .2s linear;
+  max-width: 241px;
 }
 
 .achievements__link:hover {
