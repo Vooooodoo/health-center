@@ -4,6 +4,7 @@
 
 @media all and (max-width: 1023px) {
 	.achievements__list-item_position_right-center {
-    grid-column: 3/5;
+    grid-column: auto;
+    order: 1;
   }
 }

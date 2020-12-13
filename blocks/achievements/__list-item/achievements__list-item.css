@@ -4,6 +4,7 @@
 @import url(./_position/achievements__list-item_position_left-center.css);
 @import url(./_position/achievements__list-item_position_right-center.css);
 @import url(./_type/achievements__list-item_type_bubble.css);
+@import url(./_type/achievements__list-item_type_link.css);
 
 .achievements__list-item {
   display: flex;
