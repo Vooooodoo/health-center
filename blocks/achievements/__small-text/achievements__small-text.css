@@ -11,3 +11,10 @@
     line-height: 19px;
   }
 }
+
+@media all and (max-width: 580px) {
+	.achievements__small-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

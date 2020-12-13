@@ -13,3 +13,10 @@
     line-height: 36px;
   }
 }
+
+@media all and (max-width: 580px) {
+	.achievements__midlle-text {
+    font-size: 22.75px;
+    line-height: 31px;
+  }
+}
