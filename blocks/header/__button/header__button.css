@@ -1,7 +1,7 @@
 .header__button {
   display: none;
-  width: 37.5px;
-  height: 70px;
+  width: 30px;
+  height: 30px;
   border: 0;
   padding: 0;
   background-color: transparent;
@@ -26,8 +26,6 @@
 
 @media all and (max-width: 480px) {
 	.header__button {
-    width: 32px;
-    height: 48px;
     margin-right: 28px;
   }
 }
