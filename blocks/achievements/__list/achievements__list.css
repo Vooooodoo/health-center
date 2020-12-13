@@ -16,3 +16,10 @@
     max-width: 600px;
   }
 }
+
+@media all and (max-width: 479px) {
+	.achievements__list {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+}
