@@ -14,11 +14,11 @@ function switchMobileMenu() {
 }
 
 function openPopup(popup) {
-  popup.classList.add('popup_opened');
+  popup.classList.add('popup_slide-state_opened');
 }
 
 function closePopup(popup) {
-  popup.classList.remove('popup_opened');
+  popup.classList.remove('popup_slide-state_opened');
 }
 
 function closeAllPopups(evt) {

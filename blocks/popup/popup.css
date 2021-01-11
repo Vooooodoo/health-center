@@ -13,10 +13,11 @@
 @import url(./__slider-btn/popup__slider-btn.css);
 @import url(./__wrapper/popup__wrapper.css);
 @import url(./__radio-btn/popup__radio-btn.css);
+@import url(./_slide-state/popup_slide-state_closed.css);
+@import url(./_slide-state/popup_slide-state_opened.css);
 
 .popup {
   position: fixed;
-  display: flex;
   top: 0;
   left: 0;
   width: 100%;
