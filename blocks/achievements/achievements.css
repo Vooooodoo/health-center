@@ -4,7 +4,6 @@
 @import url(./__large-text/achievements__large-text.css);
 @import url(./__middle-text/achievements__midlle-text.css);
 @import url(./__small-text/achievements__small-text.css);
-@import url(./__link/achievements__link.css);
 
 .achievements {
   background-image: url(../../images/intro.jpg);
