@@ -11,11 +11,10 @@ function openPopup(evt) {
   const clickedCard = evt.target.parentElement;
   const clickedCardPopup = clickedCard.lastElementChild;
 
-  const isProcPhoto = evt.target.classList.contains('procedures__card-photo');
+  const isProcPhoto = evt.target.classList.contains('procedures__card-photo_type_description');
   const isProcTitle = evt.target.classList.contains('procedures__card-title');
-  const isTextCardLink = evt.target.classList.contains('text-cards__button');
 
-  if (isProcPhoto || isProcTitle || isTextCardLink) {
+  if (isProcPhoto || isProcTitle) {
     clickedCardPopup.classList.add('popup_opened');
   }
 }
