@@ -14,16 +14,17 @@
   box-sizing: border-box;
 }
 
-@media all and (max-width: 1023px) {
-	.achievements__list-item {
-    grid-column: auto;
+
+@media all and (max-width: 1279px) {
+  .achievements__list-item {
+    width: 220px;
+    height: 220px;
   }
 }
 
-@media all and (max-width: 1279px) {
-	.achievements__list-item {
-    width: 220px;
-    height: 220px;
+@media all and (max-width: 1023px) {
+  .achievements__list-item {
+    grid-column: auto;
   }
 }
 
@@ -38,14 +39,6 @@
   }
 
   .achievements__list-item:nth-of-type(even) {
-    justify-self: end;
-  }
-
-  .achievements__list-item:nth-of-type(6) {
-    justify-self: start;
-  }
-
-  .achievements__list-item:nth-of-type(7) {
     justify-self: end;
   }
 }
