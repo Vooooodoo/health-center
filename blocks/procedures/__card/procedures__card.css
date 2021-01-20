@@ -5,3 +5,9 @@
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
+
+@media all and (max-width: 599px) {
+	.procedures__card:last-of-type {
+    display: none;
+  }
+}
