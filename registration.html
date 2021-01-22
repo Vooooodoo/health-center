@@ -9,6 +9,28 @@
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="icon" href="./images/favicon.svg" sizes="any" type="image/svg+xml">
     <title>Центр Здоровья</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function() {
+        emailjs.init('user_dOgOzdD73w4Q1jEouOYa2');
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function() {
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();
+
+          this.contact_number.value = Math.random() * 100000 | 0;
+
+          emailjs.sendForm('service_162gf7f', 'template_8n9hs3f', this)
+            .then(function() {
+              console.log('SUCCESS!');
+            }, function(error) {
+                console.log('FAILED...', error);
+            });
+        });
+      }
+    </script>
   </head>
   <body class="page">
     <div class="root">
@@ -96,12 +118,13 @@
 
           <p class="registration__text registration__text_type_main">Через данную форму вы&nbsp;можете записаться на&nbsp;курс лечения в&nbsp;ООО &laquo;СП&nbsp;&laquo;Центр Здоровья&raquo;</p>
 
-          <form class="form">
+          <form id="contact-form" class="form">
             <fieldset class="form__fieldset">
+              <input type="hidden" name="contact_number">
               <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
               <input class="form__input" name="email" type="email" placeholder="E-mail*" minlength="2" maxlength="40" required>
               <input class="form__input" name="phone" type="number" placeholder="Телефон*" required>
-              <textarea class="form__textarea" name="data" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
+              <textarea class="form__textarea" name="message" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
             </fieldset>
 
             <button class="form__submit" type="submit">Отправить</button>
