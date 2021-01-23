@@ -17,16 +17,18 @@
     </script>
     <script type="text/javascript">
       window.onload = function() {
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
-          event.preventDefault();
+        document.getElementById('contact-form').addEventListener('submit', function(evt) {
+          evt.preventDefault();
 
           this.contact_number.value = Math.random() * 100000 | 0;
 
           emailjs.sendForm('service_162gf7f', 'template_8n9hs3f', this)
             .then(() => {
               console.log('SUCCESS!');
-            }, (err) => {
-                console.log('FAILED...', err);
+            })
+
+            .catch((err) => {
+              console.log('FAILED...', err);
             });
         });
       }
@@ -123,7 +125,7 @@
               <input type="hidden" name="contact_number">
               <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
               <input class="form__input" name="email" type="email" placeholder="E-mail*" minlength="2" maxlength="40" required>
-              <input class="form__input" name="phone" type="number" placeholder="Телефон*" required>
+              <input class="form__input" name="phone" type="tel" placeholder="Телефон*" required>
               <textarea class="form__textarea" name="message" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
             </fieldset>
 
