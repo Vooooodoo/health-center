@@ -23,10 +23,10 @@
           this.contact_number.value = Math.random() * 100000 | 0;
 
           emailjs.sendForm('service_162gf7f', 'template_8n9hs3f', this)
-            .then(function() {
+            .then(() => {
               console.log('SUCCESS!');
-            }, function(error) {
-                console.log('FAILED...', error);
+            }, (err) => {
+                console.log('FAILED...', err);
             });
         });
       }
