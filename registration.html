@@ -26,10 +26,12 @@
 
           emailjs.sendForm('service_162gf7f', 'template_8n9hs3f', this)
             .then(() => {
+              alert('Запрос выполнен успешно.');
               console.log('SUCCESS!');
             })
 
             .catch((err) => {
+              alert('Что-то пошло не так.');
               console.log('FAILED...', err);
             });
 
