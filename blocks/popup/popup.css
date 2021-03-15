@@ -7,14 +7,7 @@
 @import url(./__list/popup__list.css);
 @import url(./__photo-container/popup__photo-container.css);
 @import url(./__photo/popup__photo.css);
-@import url(./__slider-container/popup__slider-container.css);
-@import url(./__schedule-title/popup__schedule-title.css);
-@import url(./__slider-photo/popup__slider-photo.css);
-@import url(./__slider-btn/popup__slider-btn.css);
 @import url(./__wrapper/popup__wrapper.css);
-@import url(./__radio-btn/popup__radio-btn.css);
-@import url(./_slide-state/popup_slide-state_closed.css);
-@import url(./_slide-state/popup_slide-state_opened.css);
 
 .popup {
   position: fixed;

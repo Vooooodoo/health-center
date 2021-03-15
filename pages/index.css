@@ -25,6 +25,7 @@
 @import url(../blocks/form/form.css);
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/warning-card/warning-card.css);
+@import url(../blocks/grid-container/grid-container.css);
 /* contacts */
 @import url(../blocks/our-contacts/our-contacts.css);
 @import url(../blocks/yandex-map/yandex-map.css);

@@ -5,19 +5,19 @@
   display: flex;
   background-color: #FFF9F9;
   border-radius: 5px;
-  margin: 0 40px 30px;
+  margin: 20px 40px 30px;
   padding: 20px;
 }
 
 @media all and (max-width: 1023px) {
 	.warning-card {
-    margin: 0 20px 30px;
+    margin: 20px 20px 30px;
   }
 }
 
 @media all and (max-width: 589px) {
 	.warning-card {
-    margin-bottom: 20px;
+    margin: 20px;
   }
 }
 

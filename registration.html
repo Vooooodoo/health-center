@@ -132,17 +132,12 @@
               <input class="form__input" name="name" type="text" placeholder="Имя*" minlength="2" maxlength="40" pattern="^[А-Яа-яЁёA-Za-z\s\-]+$" required>
               <input class="form__input" name="email" type="email" placeholder="E-mail*" minlength="2" maxlength="40" required>
               <input class="form__input" name="phone" type="tel" placeholder="Телефон*" required>
-              <textarea class="form__textarea" name="message" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
+              <textarea class="form__textarea" name="pacient-data" placeholder="Данные о&nbsp;пациенте: Ф.И.О, возраст, диагноз, домашний адрес*" minlength="2" required></textarea>
+              <textarea class="form__textarea" name="pacient-message" placeholder="Сообщение" minlength="2"></textarea>
             </fieldset>
 
             <button class="form__submit" type="submit">Отправить</button>
           </form>
-          <!-- <div class="popup popup_closed popup_opened">
-            <div class="popup__container popup__container_type_normal">
-              <p class="popup__text popup__text_position_top">Форма отправлена успешно!</p>
-              <button class="popup__close popup__close_type_normal" type="button" aria-label="Закрыть окно с фотографией."></button>
-            </div>
-          </div> -->
 
           <div class="registration__container">
             <p class="registration__text registration__text_type_or">или</p>
@@ -166,71 +161,31 @@
             <img class="contacts__logo contacts__logo_type_papers" src="./images/contacts__logo_name_papers.svg" alt="Логотип в форме стопки бумаг.">
             <p class="contacts__text">
               По&nbsp;вопросу выставления счета на&nbsp;курс реабилитации обращаться к&nbsp;экономисту Хоменко Марине Николаевне по&nbsp;телефону:
-              <a class="contacts__link contacts__link_type_contact" href="tel:+79185891001">+7 918 589–10–01,</a>
-              предварительно ознакомившись с
-              <button id="schedule-btn" class="contacts__link contacts__link_type_details" type="button">графиком курсов лечения</button>
-              и
-              <button id="price-btn" class="contacts__link contacts__link_type_details" type="button">прейскурантом цен</button>
+              <a class="contacts__link contacts__link_type_contact" href="tel:+79185891001">+7 918 589–10–01.</a>
             </p>
-
-            <div id="schedule2020-popup" class="popup popup_slide-state_closed">
-              <div class="popup__hack-wrap">
-                <div class="popup__slider-container popup__slider-container_type_schedule">
-                  <h3 class="popup__schedule-title">График курсов реабилитации на&nbsp;2021&nbsp;г.</h3>
-                  <img class="popup__slider-photo popup__slider-photo_type_schedule" src="./images/popup__photo_type_schedule-2020.jpg" alt="График курсов реабилитации на 2020 г.">
-                  <button class="popup__close popup__close_type_slider-overflowed" type="button" aria-label="Закрыть окно с графиком курсов лечения."></button>
-                  <button id="schedule-right-slider-btn" class="popup__slider-btn popup__slider-btn_right" type="button" aria-label="Посмотреть следующий слайд."></button>
-                  <div class="popup__wrapper">
-                    <button class="popup__radio-btn popup__radio-btn_active" type="button" aria-label="Посмотреть текущий слайд."></button>
-                    <button id="schedule-right-radio-btn" class="popup__radio-btn popup__radio-btn_inactive" type="button" aria-label="Посмотреть следующий слайд."></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="schedule2021-popup" class="popup popup_slide-state_closed">
-              <div class="popup__hack-wrap">
-                <div class="popup__slider-container popup__slider-container_type_schedule">
-                  <h3 class="popup__schedule-title">График курсов реабилитации на&nbsp;2022&nbsp;г.</h3>
-                  <img class="popup__slider-photo popup__slider-photo_type_schedule" src="./images/popup__photo_type_schedule-2021.jpg" alt="График курсов реабилитации на 2021 г.">
-                  <button class="popup__close popup__close_type_slider-overflowed" type="button" aria-label="Закрыть окно с графиком курсов лечения."></button>
-                  <button id="schedule-left-slider-btn" class="popup__slider-btn popup__slider-btn_left" type="button" aria-label="Посмотреть предыдущий слайд."></button>
-                  <div class="popup__wrapper">
-                    <button id="schedule-left-radio-btn" class="popup__radio-btn popup__radio-btn_inactive" type="button" aria-label="Посмотреть предыдущий слайд."></button>
-                    <button class="popup__radio-btn popup__radio-btn_active" type="button" aria-label="Посмотреть текущий слайд."></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="price-one-popup" class="popup popup_slide-state_closed">
-              <div class="popup__hack-wrap">
-                <div class="popup__slider-container popup__slider-container_type_price">
-                  <img class="popup__slider-photo popup__slider-photo_type_price" src="./images/popup__photo_type_price-one.jpg" alt="Прейскурант страница один.">
-                  <button class="popup__close popup__close_type_slider-overflowed" type="button" aria-label="Закрыть окно с графиком курсов лечения."></button>
-                  <button id="price-right-slider-btn" class="popup__slider-btn popup__slider-btn_right" type="button" aria-label="Посмотреть следующий слайд."></button>
-                  <div class="popup__wrapper">
-                    <button class="popup__radio-btn popup__radio-btn_active" type="button" aria-label="Посмотреть текущий слайд."></button>
-                    <button id="price-right-radio-btn" class="popup__radio-btn popup__radio-btn_inactive" type="button" aria-label="Посмотреть следующий слайд."></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div id="price-two-popup" class="popup popup_slide-state_closed">
-              <div class="popup__hack-wrap">
-                <div class="popup__slider-container popup__slider-container_type_price">
-                  <img class="popup__slider-photo popup__slider-photo_type_price" src="./images/popup__photo_type_price-two.jpg" alt="Прейскурант страница один.">
-                  <button class="popup__close popup__close_type_slider-overflowed" type="button" aria-label="Закрыть окно с графиком курсов лечения."></button>
-                  <button id="price-left-slider-btn" class="popup__slider-btn popup__slider-btn_left" type="button" aria-label="Посмотреть предыдущий слайд."></button>
-                  <div class="popup__wrapper">
-                    <button id="price-left-radio-btn" class="popup__radio-btn popup__radio-btn_inactive" type="button" aria-label="Посмотреть предыдущий слайд."></button>
-                    <button class="popup__radio-btn popup__radio-btn_active" type="button" aria-label="Посмотреть текущий слайд."></button>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
+        </section>
+
+        <section class="flex-column-container">
+          <h2 class="headline">График курсов лечения</h2>
+
+          <ul class="grid-container">
+            <li>
+              <img
+                class="grid-container__item"
+                src="./images/grid-container__item_name_2021.jpg"
+                alt="График курсов лечения на 2021 год."
+              >
+            </li>
+
+            <li>
+              <img
+                class="grid-container__item"
+                src="./images/grid-container__item_name_2022.jpg"
+                alt="График курсов лечения на 2022 год."
+              >
+            </li>
+          </ul>
 
           <div class="warning-card">
             <img class="warning-card__logo" src="./images/warning-card__logo.svg" alt="Логотип в форме восклицательного знака.">

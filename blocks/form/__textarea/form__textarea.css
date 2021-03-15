@@ -12,6 +12,10 @@
   background-color: #FFF9F9;
 }
 
+.form__textarea:first-of-type {
+  margin-bottom: 5px;
+}
+
 .form__textarea:focus {
   outline-color: #544D4D;
 }
